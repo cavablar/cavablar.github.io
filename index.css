@@ -1,0 +1,39 @@
+/**
+** Just styling it has nothing to do with functioning.
+**/
+body{
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100%;
+  width:100%;
+  font-size: 16px;
+  font-family:monospace;
+}
+
+#search-box{
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+#search-input{
+  width: 200px;
+  padding: 10px;
+  border-style: none;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 16px;
+  font-family:monospace;
+}
+ul{
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+li{
+  padding: 10px;
+  border-bottom: 1px solid #f2f2f2;
+  width:200px;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
